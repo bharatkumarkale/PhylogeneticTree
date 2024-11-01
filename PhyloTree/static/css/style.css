@@ -1,0 +1,63 @@
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+#controlBar {
+  width: 100%;
+  height: 5%;
+  /* padding-left: 5%; */
+  padding-top: 1%;
+  align-items: center;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#canvas {
+  width: 97%;
+  height: 92%;
+  margin: 1% 0.25%;
+  display: flex;
+  flex-direction: row;
+}
+
+#tree_canvas {
+  width: 20%;
+  height: 100%;
+}
+
+#alignment_canvas {
+  width: 80%;
+  height: 100%;
+  overflow-x: scroll;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+
+.node text {
+  font-size: 10px;
+  font-family: Arial, sans-serif;
+  text-anchor: start;
+}
+
+.node circle {
+  fill: #fff;
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+.highlightNode {
+    color: #FA8072;
+    fill: #FA8072;
+    font-weight: bold;
+}
+
+.alignment_seq {
+  font-size: xx-small;
+  alignment-baseline: alphabet;
+  text-anchor: middle;
+}
